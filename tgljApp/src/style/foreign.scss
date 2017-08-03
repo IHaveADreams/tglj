@@ -1,0 +1,84 @@
+.foreign{
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	background: white;
+	.head{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top:0;
+		left: 0;
+		background: white;
+		z-index: 999;
+		.forHeader{
+			width: 100%;
+			height:50px;
+			border-bottom: 1px solid #eee;
+			.left{
+				font-size: 30px;
+				line-height: 50px;
+				color: #666;
+				margin:0 20px;
+				float: left;
+			}
+			.right{
+				width: 75%;
+				float: left;
+				height: 35px;
+				margin-top:8px;
+				border:none;
+				background: #eee;
+				border-radius: 7px;
+				text-indent: 2em;
+			}
+		}
+		.nav{
+			.grid-content{
+				text-align: center;
+				line-height: 50px;
+				i{
+					font-size: 13px;
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+	.forMain{
+		width: 100%;
+		margin: 100px 0 0 0;
+		padding-bottom: 20px;
+		.color{
+			color: black;
+			text-decoration: none;
+		}
+		li{
+			margin-bottom: 50px;
+			list-style: none;
+		}
+		.con{
+			width: 90%;
+			margin: 20px auto;
+			img{
+				width: 100%;
+			}
+			h2{
+				font-size: 18px;
+				font-weight: 500;
+				margin: 10px 0;
+			}
+			.fen{
+				float: left;
+				color: green;
+				margin-right: 10px;
+			}
+			.pu{
+				float: left;
+			}
+			.pirce{
+				color: red;
+				float: right;
+			}
+		}
+	}
+}

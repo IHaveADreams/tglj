@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+}
+#app {
+  .footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 65px;
+    border-top:1px solid #ccc;
+    background-color: white;
+    .grid-content{
+      text-align: center;
+      padding-top: 8px;
+      box-sizing: border-box;
+      span{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin:0 auto;
+      }
+      p{
+        color: black;
+        margin-top: 2px;
+      }
+    }
+    .home{
+      span{
+        background: url('./assets/home.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color: black;
+      }
+    }
+    .homeActive{
+      span{
+        background:url('./assets/home1.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color:#36ab60;
+      }
+    }
+    .journey{
+      span{
+        background: url('./assets/journey.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color: black;
+      }
+    }
+    .journeyActive{
+      span{
+        background:url('./assets/journey1.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color:#36ab60;
+      }
+    }
+    .find{
+      span{
+        background: url('./assets/find.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color: black;
+      }
+    }
+    .findActive{
+      span{
+        background:url('./assets/find1.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color:#36ab60;
+      }
+    }
+    .mine{
+      span{
+        background: url('./assets/mine.png');
+        background-size: 100% 100%;
+      }
+      
+    }
+    .mineActive{
+      span{
+        background:url('./assets/mine1.png');
+        background-size: 100% 100%;
+      }
+      p{
+        color:#36ab60;
+      }
+    }
+  }
+}
